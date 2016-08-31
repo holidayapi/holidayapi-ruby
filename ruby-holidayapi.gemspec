@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'ruby-holidayapi'
-  s.version     = '1.0.0'
+  s.version     = '1.0.1'
   s.date        = '2016-08-30'
   s.summary     = 'Official Ruby library for Holiday API'
   s.description = 'Official Ruby library for Holiday API'

@@ -12,7 +12,7 @@ gem install ruby-holidayapi
 ```ruby
 require 'ruby-holidayapi'
 
-hapi = Holiday::V1.new('_YOUR_API_KEY_')
+hapi = HolidayAPI::V1.new('_YOUR_API_KEY_')
 
 parameters = {
   # Required

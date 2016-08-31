@@ -15,16 +15,16 @@ require 'ruby-holidayapi'
 hapi = Holiday::V1.new('_YOUR_API_KEY_')
 
 parameters = {
-  // Required
+  # Required
   'country' => 'US',
   'year'    => 2016,
-  // Optional
-  // 'month'    => 7,
-  // 'day'      => 4,
-  // 'previous' => true,
-  // 'upcoming' => true,
-  // 'public'   => true,
-  // 'pretty'   => true,
+  # Optional
+  # 'month'    => 7,
+  # 'day'      => 4,
+  # 'previous' => true,
+  # 'upcoming' => true,
+  # 'public'   => true,
+  # 'pretty'   => true,
 }
 
 response = hapi.holidays(parameters)
